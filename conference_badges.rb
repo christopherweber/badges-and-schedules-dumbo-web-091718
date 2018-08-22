@@ -13,6 +13,6 @@ end
 def assign_rooms(speakers)
   rooms = (1..7)
     while rooms.count > 7
-    assign_rooms.each_with_index {|name, index| puts "Hello, #{name}! You'll be assigned to room #{index+1}!" "Hello, #{name}! You'll be assigned to room #{index+1}!"}
+    speakers.each_with_index {|name, index| puts "Hello, #{name}! You'll be assigned to room #{index+1}!" "Hello, #{name}! You'll be assigned to room #{index+1}!"}
     end
 end
