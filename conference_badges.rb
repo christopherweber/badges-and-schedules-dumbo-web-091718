@@ -11,10 +11,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakers)
-  counter = 0
   rooms = (1..7)
     while rooms.count > 7
-    
-    return "Hello, #{name}! You'll be assigned to room #{index+1}!"
-  
+    assign_rooms.each_with_index {|name, index| puts "Hello, #{name}! You'll be assigned to room #{index+1}!" "Hello, #{name}! You'll be assigned to room #{index+1}!"
+    end
 end
