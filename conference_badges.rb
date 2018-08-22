@@ -30,5 +30,3 @@ def printer(final_print)
   end
 end 
     
-  
-end
