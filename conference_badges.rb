@@ -13,7 +13,7 @@ end
 def assign_rooms(speakers)
   counter = 0
   rooms = (1..7)
-    until counter == rooms
+    if counter > rooms
     "Hello, #{name}! You'll be assigned to room #{index+1}!"
   
 end
