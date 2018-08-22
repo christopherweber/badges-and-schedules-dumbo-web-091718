@@ -11,5 +11,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakers)
+  counter = 0
+  rooms = (1..7)
+  until counter == rooms
   
 end
