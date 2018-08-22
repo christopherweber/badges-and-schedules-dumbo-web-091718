@@ -14,6 +14,6 @@ def assign_rooms(speakers)
   counter = 0
   rooms = (1..7)
     until counter == rooms
-    return "The line is currently:"
+    "Hello, ! You'll be assigned to room _____!"
   
 end
